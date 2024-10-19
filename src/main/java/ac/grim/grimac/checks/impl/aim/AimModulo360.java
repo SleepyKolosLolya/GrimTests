@@ -24,7 +24,7 @@ public class AimModulo360 extends Check implements RotationCheck {
         if (player.xRot < 360 && player.xRot > -360 && Math.abs(rotationUpdate.getDeltaXRot()) > 320 && Math.abs(lastDeltaYaw) < 30) {
             flagAndAlert();
         } else {
-            reward();
+            
         }
 
         lastDeltaYaw = rotationUpdate.getDeltaXRot();
